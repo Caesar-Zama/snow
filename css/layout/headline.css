@@ -1,7 +1,11 @@
 .headline {
-  height: 100vh;
+  position: relative;
   background-image: url(../assets/images/design-desk-1280w.jpeg);
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  border: 1px solid chartreuse; }
+
+.headline-container {
+  border: 1px solid crimson; }
 
 /*# sourceMappingURL=headline.css.map */

@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,SAAU;EACR,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,4CAA4C;EAC9D,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,MAAM",
+"mappings": "AAAA,SAAU;EACR,QAAQ,EAAE,QAAQ;EAClB,gBAAgB,EAAE,4CAA4C;EAC9D,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,MAAM;EAC3B,MAAM,EAAE,oBAAoB;;AAG9B,mBAAoB;EAClB,MAAM,EAAE,iBAAiB",
 "sources": ["../../sass/layout/headline.scss"],
 "names": [],
 "file": "headline.css"
