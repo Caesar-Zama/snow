@@ -1,5 +1,5 @@
 .overlay {
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(23, 23, 23, 0.5); }
 
 .cover {
   height: 100vh; }
@@ -323,7 +323,12 @@ img {
   height: auto; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: inherit; }
+
+ul {
+  margin: 0;
+  padding: 0; }
 
 li {
   margin: 0;
@@ -350,6 +355,31 @@ header {
   border: 1px solid crimson; }
 
 .logo {
-  width: 80px; }
+  width: 80px;
+  z-index: 1002; }
+
+.nav__wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(23, 23, 23, 0.7);
+  z-index: 1001;
+  border: 2px solid blueviolet; }
+
+.nav {
+  height: 100%;
+  border: 1px solid oldlace; }
+
+.nav__links {
+  margin-top: 10rem;
+  border: 1px solid darkgoldenrod; }
+
+.nav__link {
+  margin-bottom: 1.25rem;
+  font-family: "Playfair Display", serif;
+  font-size: 1.7rem;
+  color: #FFFFFF; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,31 @@
+.nav__wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba($color: $black, $alpha: 0.7);
+  z-index: 1001;
+  border: 2px solid blueviolet;
+}
+
+.nav {
+  height: 100%;
+  border: 1px solid oldlace;
+}
+
+.nav__links {
+  margin-top: 10rem;
+  border: 1px solid darkgoldenrod;
+}
+
+.nav__link {
+  margin-bottom: 1.25rem;
+  font-family: $font-secondary;
+  font-size: 1.7rem;
+  color: $white-1;
+}
+
+.nav__open {}
+
+.nav__close {}
