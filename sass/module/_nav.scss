@@ -1,4 +1,5 @@
 .nav__wrapper {
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -23,12 +24,15 @@
   }
 }
 
-.nav__open {}
+.nav__open,
+.nav__close {
+  font-size: 1.75rem;
+  color: $white-1;
+  cursor: pointer; 
+}
 
 .nav__close {
   position: absolute;
   top: 22px;
   right: 18px;
-  font-size: 1.75rem;
-  color: $white-1; 
 }
