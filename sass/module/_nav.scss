@@ -4,28 +4,31 @@
   left: 0;
   width: 100%;
   text-align: center;
-  background-color: rgba($color: $black, $alpha: 0.7);
+  background: linear-gradient(rgba(37,37,37,.85), rgba(37,37,37,.85)), url("../assets/images/snowy-mountain-1280w.jpeg");
   z-index: 1001;
-  border: 2px solid blueviolet;
 }
 
-.nav {
-  height: 100%;
-  border: 1px solid oldlace;
-}
+.nav {height: 100%;}
 
-.nav__links {
-  margin-top: 10rem;
-  border: 1px solid darkgoldenrod;
-}
+.nav__links {margin-top: 10rem;}
 
 .nav__link {
   margin-bottom: 1.25rem;
   font-family: $font-secondary;
   font-size: 1.7rem;
   color: $white-1;
+  transition: color .3s;
+  &:hover {
+    color: $gray-1;
+  }
 }
 
 .nav__open {}
 
-.nav__close {}
+.nav__close {
+  position: absolute;
+  top: 22px;
+  right: 18px;
+  font-size: 1.75rem;
+  color: $white-1; 
+}

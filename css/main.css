@@ -364,22 +364,29 @@ header {
   left: 0;
   width: 100%;
   text-align: center;
-  background-color: rgba(23, 23, 23, 0.7);
-  z-index: 1001;
-  border: 2px solid blueviolet; }
+  background: linear-gradient(rgba(37, 37, 37, 0.85), rgba(37, 37, 37, 0.85)), url("../assets/images/snowy-mountain-1280w.jpeg");
+  z-index: 1001; }
 
 .nav {
-  height: 100%;
-  border: 1px solid oldlace; }
+  height: 100%; }
 
 .nav__links {
-  margin-top: 10rem;
-  border: 1px solid darkgoldenrod; }
+  margin-top: 10rem; }
 
 .nav__link {
   margin-bottom: 1.25rem;
   font-family: "Playfair Display", serif;
   font-size: 1.7rem;
+  color: #FFFFFF;
+  transition: color .3s; }
+  .nav__link:hover {
+    color: #bfbfbf; }
+
+.nav__close {
+  position: absolute;
+  top: 22px;
+  right: 18px;
+  font-size: 1.75rem;
   color: #FFFFFF; }
 
 /*# sourceMappingURL=main.css.map */
